@@ -9,14 +9,19 @@
 # Output
 # Print one integer, denoting the integer number of years after which Limak will become strictly larger than Bob.
 
-a = int(input("Enter Limak's weight: "))
-b = int(input("Enter Bob's weight: "))
+a = int(input('enter the weight: '))
+b = int(input('enter the weight: '))
 
 years = 0
 
-while a <= b:
-    a = a * 3
-    b = b * 2
-    years = years + 1
+for _ in range(b):
+    for _ in range(1):
+        if a > b:
+            break
+        a = a * 3
+        b = b * 2
+        years += 1
+    if a > b:
+        break
 
 print(years)
