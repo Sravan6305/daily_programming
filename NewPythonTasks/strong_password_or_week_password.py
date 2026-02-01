@@ -6,7 +6,6 @@ digit = 0
 special = 0
 score = 0
 
-
 if len(password) >= 9:
     score = score + 1
 
@@ -25,4 +24,4 @@ if score <= 2:
 elif score <= 4:
     print(f'{password} is Medium password')
 else:
-    print(f'{password} is Strong password')
+    print(f' {password} is Strong password')
