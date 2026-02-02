@@ -15,4 +15,4 @@ def split_bill(total, people, tip_percent, is_weekend):
     return round(total_amount / people, 2)
 
 print(split_bill(1000,4,10,True))
-print(split_bill(1000,4,10,False))
+print(split_bill(2500,8,10,False))
